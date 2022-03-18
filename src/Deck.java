@@ -7,7 +7,7 @@ import java.util.Random;
 public class Deck {
     private static final int DECK_SIZE = 52;
 
-    private LinkedList<Card> deck = new LinkedList<>();
+    private final LinkedList<Card> deck = new LinkedList<>();
 
     public Deck() {
         for (int count = 0; count < DECK_SIZE; count++)
